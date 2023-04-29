@@ -1,4 +1,4 @@
-package com.kelly.boot.web;
+package com.kelly.boot.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

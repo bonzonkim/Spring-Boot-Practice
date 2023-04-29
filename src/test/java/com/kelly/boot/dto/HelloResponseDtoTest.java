@@ -1,6 +1,6 @@
 package com.kelly.boot.dto;
 
-import com.kelly.boot.web.HelloResponseDto;
+import com.kelly.boot.web.dto.HelloResponseDto;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
