@@ -21,6 +21,7 @@ public class PostsService {
     @Transactional
     public Long update(Long id, PostsSaveRequestDto requestDto) {
         Posts posts = PostsRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("No such posts" + id));
+        posts.update(requestDto.getTitle(), requestDto.getContent());
         return id;
     }
 
